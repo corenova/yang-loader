@@ -1,0 +1,18 @@
+{
+  "name": "yang-loader",
+  "version": "1.0.0",
+  "description": "webpack loader for YANG schema",
+  "keywords": [
+    "yang",
+    "webpack",
+    "loader"
+  ],
+  "author": "Peter Lee <peter@corenova.com> (http://corenova.com)",
+  "homepage": "https://github.com/corenova/yang-js",
+  "license": "Apache-2.0",
+  "repository": "corenova/yang-js",
+  "main": "index.js",
+  "peerDependencies": {
+    "yang-js": ">=0.17.30"
+  }
+}

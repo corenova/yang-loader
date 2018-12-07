@@ -1,6 +1,6 @@
 {
   "name": "yang-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "webpack loader for YANG schema",
   "keywords": [
     "yang",
@@ -13,7 +13,7 @@
   "repository": "corenova/yang-js",
   "main": "index.js",
   "peerDependencies": {
-    "yang-js": ">=0.17.30"
+    "yang-js": ">=0.17.35"
   },
   "dependencies": {
     "loader-utils": "^1.1.0"

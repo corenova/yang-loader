@@ -17,7 +17,7 @@ module.exports = function load(content) {
     reqs.push("Yang.use(require("+loaderUtils.stringifyRequest(this, filepath)+"));")
   }
   this.cacheable && this.cacheable();
-  return reqs.join("\n") + "\nmodule.exports = Yang(" + JSON.stringify(content) +");";
+  return reqs.join("\n") + "\nmodule.exports = Yang.use(Yang.parse(" + JSON.stringify(content) +"));";
 
   function extracTag(x) { return x.tag }
 }
